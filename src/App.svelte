@@ -15,10 +15,24 @@
 		margin: 0;
 		margin-bottom: 20px;
 	}
+	@media (max-width: 1000px) {
+		#header {
+			font-size: 40px;
+		}
+	}
+
 	#holder {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 20px;
+	}
+	@media (max-width: 1000px) {
+		#holder {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			flex-wrap: wrap;
+		}
 	}
 	.card_image > img {
 		width: 80px;
@@ -46,18 +60,30 @@
 		font-size: 55px;
 		margin: 0px;
 	}
+	@media (max-width: 1000px) {
+		.card_title {
+			font-size: 35px;
+		}
+	}
 	.card_text {
 		font-weight: bold;
 		font-size: 24px;
 		margin: 0;
 		margin-top: -5px;
 		color: #333333;
+		word-break: break-word;
+	}
+	@media (max-width: 1000px) {
+		.card_text {
+			font-size: 20px;
+		}
 	}
 	.card_body {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		padding-right: 20px;
+		word-break: break-word;
 	}
 	.card_ip {
 		padding-bottom: 10px;
@@ -67,6 +93,11 @@
 		font-size: 25px;
 		color: #0e9ac7;
 		text-decoration: none;
+	}
+	@media (max-width: 1000px) {
+		.card_ip > a {
+			font-size: 20px;
+		}
 	}
 </style>
 
