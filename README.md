@@ -1,6 +1,6 @@
 # LocalHomepage
 
-LocalHomepage is a simple network directory site to help people find and navigate services on a network. To use it yourself, fork the repo and add your own services in `src/main.js`.
+LocalHomepage is a simple network directory site to help people find and navigate services on a network. To use it yourself, clone the repo and create `src/services.json` with all your services. An example of this file is in `src/services.example.json`.
 
 ## Usage
 
