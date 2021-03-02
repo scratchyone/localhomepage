@@ -23,7 +23,7 @@ const app = new App({
         image:
           'https://forum.jellyfin.org/uploads/default/original/1X/bcc1ca50528695f31a888ad67607e016fb3050c1.png',
         description: 'Jellyfin is a media server for movies and TV.',
-        ip: '192.168.2.112',
+        ip: '192.168.2.112:8096',
       },
       {
         name: 'Network Guide',
